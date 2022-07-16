@@ -1,0 +1,103 @@
+body{
+  background-color:purple;
+}
+.form-inputs{
+  position:relative;
+}
+.form-inputs .form-control{
+  height:45px; 
+}
+
+.form-inputs .form-control:focus{
+  box-shadow:none;
+  border:1px solid #000;
+}
+
+.form-inputs i{
+  position:absolute;
+  right:10px;
+  top:15px;
+}
+
+.shop-bag{
+  background-color:#000;
+  color:#fff;
+  height:50px;
+  width:50px;
+  font-size:25px;
+  display:flex;
+  border-radius:50%;
+  align-items:center;
+  justify-content:center;
+}
+
+.qty{
+  font-size:12px;
+}
+
+.dropbtn {
+  color: #02a3b1;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #f9f9f9e2;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  font-size: 12px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #03d5e8}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color: #03d5e8;
+}
+
+
+.dropbimage {
+  
+  cursor: pointer;
+  
+}
+
+
+
+
+.clignote {
+  
+  color:#8fedec;
+  animation: clignote 2s linear infinite;
+}
+@keyframes clignote {  
+  50% { opacity: 0; }
+}
