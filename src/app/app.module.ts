@@ -15,6 +15,7 @@ import { NavbarComponent } from './boutique/navbar/navbar.component';
 import { ContentComponent } from './boutique/content/content.component';
 import { BoutiqueComponent } from './boutique/boutique.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReclamationsComponent } from './reclamations/reclamations.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SidebarComponent,
     NavbarComponent,
     ContentComponent,
-    BoutiqueComponent
+    BoutiqueComponent,
+    ReclamationsComponent
   ],
   imports: [
     BrowserModule,
